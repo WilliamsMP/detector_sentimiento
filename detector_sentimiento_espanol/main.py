@@ -14,3 +14,6 @@ resultado = model.predict(prueba_transformado)
 if resultado == 1: 
     print('Positivo') 
 else: print('Negativo') #resultado
+
+if __name__ == '__main__':
+    print('hola')
